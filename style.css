@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: saddlebrown; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+header h1 {
+    margin: 0; 
+    font-size: 2.8em; 
+}
+
+header p {
+    font-size: 1.2em; 
+}
+
+main {
+    max-width: 800px; 
+    margin: 20px auto; 
+}
+
+section {
+    background-color: white; 
+    padding: 30px; 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+section h2 {
+    color: saddlebrown; 
+    text-align: center; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+ul li {
+    background-color: #FAF0E6;
+    margin-bottom: 10px; 
+    padding: 10px;
+    border-left: 5px solid brown;
+    border-radius: 4px; 
+}
+
+.skill-list {
+    text-align: center; 
+}
+
+.skill-list span {
+    display: inline-block; 
+    background-color: #FFEBCD;
+    color: #333;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 20px; 
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.contact_me p a {
+    color: brown;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.contact_me a:hover {
+    text-decoration: underline; 
+}
+
+footer {
+    background-color: #333;
+    color: white; 
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em; 
+    }
+
+    section {
+        padding: 20px; 
+    }
+
+    .skill-list span {
+        margin: 3px; 
+        padding: 6px 12px;
+    }
+}
