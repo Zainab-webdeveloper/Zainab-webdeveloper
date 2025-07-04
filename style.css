@@ -99,10 +99,10 @@ ul li {
  .project-button:hover {
         background-color: #0056b3;
     }
-.project-button.secondary {
+.project-button-secondary {
         background-color: #6c757d; 
     }
- .project-button.secondary:hover {
+ .project-button-secondary:hover {
         background-color: #5a6268;
     }
 
