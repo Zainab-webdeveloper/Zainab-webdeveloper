@@ -89,7 +89,7 @@ ul li {
     }
 .project-button {
         display: inline-block;
-        background-color: #FFE4B5$;
+        background-color: #DEB887;
         color: white;
         padding: 10px 20px;
         border-radius: 5px;
@@ -97,14 +97,10 @@ ul li {
         margin: 5px;
         transition: background-color 0.3s ease;
     }
- .project-button:hover {
-        background-color: #0056b3;
-    }
 .project-button-secondary {
-        background-color: #6c757d; 
-    }
- .project-button-secondary:hover {
-        background-color: #5a6268;
+        background-color: #DEB887;
+        padding: 10px 20px;
+        color: white;
     }
 
 .skill-list {
