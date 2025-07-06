@@ -143,4 +143,76 @@ footer {
     padding: 20px;
 }
 
+@media (max-width: 768px) { 
+
+   
+    main {
+        max-width: 100%; 
+        padding: 0 10px; 
+        margin: 10px auto; 
+    }
+
+   
+    header h1 {
+        font-size: 2em; 
+    }
+    header p {
+        font-size: 1em; 
+    }
+    header {
+        padding: 15px 0; 
+    }
+
+    
+    section {
+        padding: 20px 15px; 
+        margin-bottom: 15px; 
+    }
+
+   
+    section h2 {
+        font-size: 1.8em; 
+    }
+
+    
+    ul li {
+        font-size: 0.9em; 
+        padding: 8px; 
+    }
+
+
+    .skill-list span {
+        padding: 10px;
+        margin: 3px; 
+        font-size: 0.8em; 
+    }
+
+    
+    .project-container {
+        gap: 20px; 
+        padding: 0 10px; 
+    }
+
+   
+    .project-button,
+    .project-button-secondary {
+        display: block; 
+        width: 85%; 
+        margin: 10px auto; 
+        padding: 12px 0; 
+        font-size: 0.95em; 
+    }
+
+    
+    .project-card {
+        padding: 20px; 
+    }
+
+    
+    footer {
+        padding: 15px; 
+        font-size: 0.9em; 
+    }
+}
+
 
